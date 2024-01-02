@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://keely1112.github.io/",
+  "homepage": ".",
   "vite": {
     "base": "/ajax-type-ahead/"
   },
