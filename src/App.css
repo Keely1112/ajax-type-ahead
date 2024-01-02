@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   background-color: pink;
+  overflow-x: hidden;
 }
 
 .container {
@@ -41,6 +42,7 @@ ul {
 }
 
 li {
+  overflow-y: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +56,8 @@ li {
   font-size: 20px;
   background: linear-gradient(50deg, #ffdc73 75%, #ffbf00 25%);
   &:hover {
-    width: 460px;
+    width: 520px;
+    border: 1px solid black;
   }
 }
 
