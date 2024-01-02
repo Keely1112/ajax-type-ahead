@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "homepage": "https://keely1112.github.io/",
+  "vite": {
+    "base": "/ajax-type-ahead/"
+  },
   "dependencies": {
     "@tabler/icons": "^2.44.0",
     "@tabler/icons-react": "^2.44.0",
